@@ -42,7 +42,7 @@ class Database {
             ...newProduct,
             id: this.database.length+1
         }
-        this.database.push(newProduct);
+        this.database.push(product);
         return product;
     }
 
